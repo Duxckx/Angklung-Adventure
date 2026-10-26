@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#244b35">
+  <meta name="description" content="Jelajahi dunia angklung lewat cerita, fakta budaya, permainan nada, dan kuis interaktif.">
+  <title>Angklung Adventure — Jelajahi Dunia Bambu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-glow glow-one"></div><div class="page-glow glow-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#beranda" aria-label="Angklung Adventure beranda">
+      <span class="brand-mark" aria-hidden="true">♫</span>
+      <span>angklung<span class="brand-accent">adventure</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+      <a href="#beranda" class="nav-link active">Beranda</a>
+      <a href="#jelajahi" class="nav-link">Jelajahi</a>
+      <a href="#sound-lab" class="nav-link">Sound Lab</a>
+      <a href="#memory-game" class="nav-link">Mini Game</a>
+      <a href="#kuis" class="nav-link">Kuis</a>
+    </nav>
+    <a class="header-cta" href="#kuis">Mulai kuis <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="beranda">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> PETUALANGAN BUDAYA INDONESIA</div>
+        <h1>Temukan keajaiban<br>di balik <span class="title-highlight">bambu.</span></h1>
+        <p class="hero-desc">Satu getaran, banyak cerita. Kenali angklung, jelajahi bunyinya, dan uji pengetahuanmu dalam petualangan seru!</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#jelajahi">Mulai petualangan <span>→</span></a>
+          <a class="btn btn-quiet" href="#sound-lab"><span class="play-icon">▶</span> Coba bunyinya</a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>🎋</span><span>🎵</span><span>🌿</span></div>
+          <div><strong>Belajar sambil bermain</strong><small>Budaya · Musik · Tantangan</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi hutan bambu dan angklung">
+        <div class="sun-disc"></div><div class="cloud cloud-a"></div><div class="cloud cloud-b"></div>
+        <div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <div class="bamboo bamboo-left"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="bamboo bamboo-right"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="angklung-illustration">
+          <div class="angklung-top"></div><div class="angklung-frame"></div>
+          <div class="tube tube-1"></div><div class="tube tube-2"></div><div class="tube tube-3"></div><div class="tube tube-4"></div>
+          <div class="tube tube-5"></div><div class="tube tube-6"></div><div class="tube tube-7"></div>
+          <div class="angklung-base"></div><div class="sound-wave wave-1">♪</div><div class="sound-wave wave-2">♫</div>
+        </div>
+        <div class="floating-note note-one">♪</div><div class="floating-note note-two">✦</div><div class="floating-note note-three">♫</div>
+        <div class="art-label"><span class="label-icon">✦</span><span><b>Suara dari alam</b><small>Warisan budaya Indonesia</small></span></div>
+      </div>
+      <div class="hero-bottom-note"><span>↓</span> GULIR UNTUK MENJELAJAHI <span class="note-line"></span></div>
+    </section>
+
+    <section class="quick-facts section-wrap" aria-label="Fakta singkat">
+      <div class="fact-intro"><span class="mini-leaf">✳</span><div><strong>Kenalan dulu, yuk!</strong><small>Fakta singkat tentang angklung</small></div></div>
+      <div class="fact-item"><span class="fact-icon">📍</span><div><strong>Jawa Barat</strong><small>Asal tradisi yang dikenal luas</small></div></div>
+      <div class="fact-item"><span class="fact-icon">🎋</span><div><strong>Bambu</strong><small>Bahan utama pembuatannya</small></div></div>
+      <div class="fact-item"><span class="fact-icon">🌍</span><div><strong>UNESCO</strong><small>Diakui pada tahun 2010</small></div></div>
+    </section>
+
+    <section class="explore section-wrap section-space" id="jelajahi">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-dot"></span> PETA PETUALANGAN</div><h2>Jelajahi dunia <span>angklung.</span></h2></div>
+        <p>Setiap bagian menyimpan cerita. Pilih kartu untuk membuka pengetahuan baru!</p>
+      </div>
+      <div class="explore-grid">
+        <button class="explore-card card-history" data-modal="sejarah">
+          <span class="card-number">01 / CERITA</span><span class="card-emoji">📜</span><span class="card-arrow">↗</span>
+          <h3>Jejak sejarah</h3><p>Kenali perjalanan angklung dalam tradisi masyarakat Sunda.</p><span class="card-link">Buka cerita <b>→</b></span>
+        </button>
+        <button class="explore-card card-how" data-modal="cara">
+          <span class="card-number">02 / CARA MAIN</span><span class="card-emoji">🎶</span><span class="card-arrow">↗</span>
+          <h3>Bagaimana bunyinya?</h3><p>Angklung digoyangkan agar tabung bambunya bergetar.</p><span class="card-link">Pelajari caranya <b>→</b></span>
+        </button>
+        <button class="explore-card card-culture" data-modal="budaya">
+          <span class="card-number">03 / BUDAYA</span><span class="card-emoji">🤝</span><span class="card-arrow">↗</span>
+          <h3>Musik kebersamaan</h3><p>Belajar bahwa permainan angklung membutuhkan kerja sama.</p><span class="card-link">Temukan maknanya <b>→</b></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="sound-section" id="sound-lab">
+      <div class="sound-inner section-wrap">
+        <div class="sound-copy">
+          <div class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span> ANGKLUNG SOUND LAB</div>
+          <h2>Dengar nada.<br><span>Rasakan bambu.</span></h2>
+          <p>Coba nada Do–Si sebagai referensi nada digital, lalu putar rekaman angklung asli dari Bandung untuk mendengar karakter bunyi bambunya.</p>
+          <div class="sound-status"><span class="status-pulse"></span><span id="soundStatus">Studio siap dimainkan</span></div>
+        </div>
+        <div class="sound-machine">
+          <div class="machine-top"><div><span class="machine-dot"></span><span class="machine-dot"></span><span class="machine-dot"></span></div><span>STUDIO BAMBU / 01</span></div>
+          <div class="note-buttons" role="group" aria-label="Mainkan nada simulasi">
+            <button class="note-key" data-note="261.63" data-name="Do"><span class="key-bamboo"></span><b>Do</b><small>C4</small></button>
+            <button class="note-key" data-note="293.66" data-name="Re"><span class="key-bamboo"></span><b>Re</b><small>D4</small></button>
+            <button class="note-key" data-note="329.63" data-name="Mi"><span class="key-bamboo"></span><b>Mi</b><small>E4</small></button>
+            <button class="note-key" data-note="349.23" data-name="Fa"><span class="key-bamboo"></span><b>Fa</b><small>F4</small></button>
+            <button class="note-key" data-note="392.00" data-name="Sol"><span class="key-bamboo"></span><b>Sol</b><small>G4</small></button>
+            <button class="note-key" data-note="440.00" data-name="La"><span class="key-bamboo"></span><b>La</b><small>A4</small></button>
+            <button class="note-key" data-note="493.88" data-name="Si"><span class="key-bamboo"></span><b>Si</b><small>B4</small></button>
+          </div>
+          <div class="machine-footer"><span>♪ PILIH NADA UNTUK MEMULAI</span><button id="playMelody" class="melody-btn">▶ Dengarkan angklung asli</button></div>
+          <p class="audio-credit">Rekaman asli: “The sound of angklung and Si Cepot” oleh Willaadrian · lisensi CC0. <a href="https://commons.wikimedia.org/wiki/File:The_sound_of_angklung_and_Si_Cepot.webm" target="_blank" rel="noopener noreferrer">Lihat sumber dan lisensi ↗</a></p>
+          <p class="audio-note">Catatan: tombol Do–Si masih berupa nada referensi digital. Rekaman bebas lisensi yang tersedia merupakan cuplikan permainan angklung, bukan rekaman nada Do–Si satu per satu.</p>
+          <audio id="authenticAngklung" preload="none" src="https://upload.wikimedia.org/wikipedia/commons/5/51/The_sound_of_angklung_and_Si_Cepot.webm"></audio>
+        </div>
+      </div>
+    </section>
+
+    <section class="memory-section section-wrap section-space" id="memory-game">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-dot"></span> MINI GAME · DENGAR & IKUTI</div><h2>Ikuti <span>irama angklung!</span></h2></div>
+        <p>Dengarkan urutan nada yang dimainkan otomatis, lalu ulangi dengan menekan tombol nada yang sama. Makin tinggi level, makin panjang urutannya!</p>
+      </div>
+      <div class="rhythm-shell">
+        <div class="rhythm-topbar">
+          <div class="rhythm-stat"><small>LEVEL</small><strong id="rhythmLevel">1</strong></div>
+          <div class="rhythm-stat"><small>SKOR</small><strong id="rhythmScore">0</strong></div>
+          <div class="rhythm-stat"><small>URUTAN</small><strong id="rhythmLength">3 nada</strong></div>
+          <button class="rhythm-replay" id="rhythmReplay" type="button" disabled>▶ Dengarkan lagi</button>
+        </div>
+        <div class="rhythm-stage">
+          <div class="rhythm-art" aria-hidden="true"><span>🎋</span><i>♪</i><b>♫</b></div>
+          <p class="rhythm-message" id="rhythmMessage" aria-live="polite">Siap menguji ingatanmu? Tekan mulai untuk mendengarkan urutan nada.</p>
+          <button class="btn btn-primary rhythm-start" id="rhythmStart" type="button">Mulai permainan <span>→</span></button>
+        </div>
+        <div class="rhythm-keys" id="rhythmKeys" role="group" aria-label="Tombol nada angklung">
+          <button class="rhythm-key" data-rhythm-note="0" type="button" disabled><span>🎋</span><b>Do</b><small>C4</small></button>
+          <button class="rhythm-key" data-rhythm-note="1" type="button" disabled><span>🎋</span><b>Re</b><small>D4</small></button>
+          <button class="rhythm-key" data-rhythm-note="2" type="button" disabled><span>🎋</span><b>Mi</b><small>E4</small></button>
+          <button class="rhythm-key" data-rhythm-note="3" type="button" disabled><span>🎋</span><b>Fa</b><small>F4</small></button>
+          <button class="rhythm-key" data-rhythm-note="4" type="button" disabled><span>🎋</span><b>Sol</b><small>G4</small></button>
+          <button class="rhythm-key" data-rhythm-note="5" type="button" disabled><span>🎋</span><b>La</b><small>A4</small></button>
+          <button class="rhythm-key" data-rhythm-note="6" type="button" disabled><span>🎋</span><b>Si</b><small>B4</small></button>
+        </div>
+        <p class="rhythm-tip">Tips: dengarkan sampai selesai sebelum menekan tombol. Nada pada game ini adalah nada digital referensi, bukan rekaman angklung asli per nada.</p>
+        <div class="rhythm-result hidden" id="rhythmResult" role="status"><span>🌿</span><div><strong id="rhythmResultTitle">Permainan selesai!</strong><p id="rhythmResultText">Coba lagi untuk memecahkan skor terbaikmu.</p></div><button class="btn btn-primary" id="rhythmTryAgain" type="button">Coba lagi ↻</button></div>
+      </div>
+    </section>
+
+    <section class="quiz-section section-wrap section-space" id="kuis">
+      <div class="quiz-heading">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> TANTANGAN PENJELAJAH</div>
+        <h2>Siap jadi <span>Ahli Angklung?</span></h2>
+        <p>Jawab pertanyaan, kumpulkan poin, dan temukan seberapa jauh kamu mengenal alat musik ini.</p>
+      </div>
+      <div class="quiz-shell" id="quizShell">
+        <div class="quiz-start" id="quizStart">
+          <div class="quiz-illustration"><div class="quiz-sun"></div><span class="quiz-bamboo">🎋</span><span class="quiz-star star-a">✦</span><span class="quiz-star star-b">♫</span></div>
+          <div class="quiz-start-copy"><span class="level-pill">🌿 MISI BUDAYA · 8 SOAL</span><h3>Uji pengetahuanmu!</h3><p>Mulai kuis singkat tentang asal-usul, cara memainkan, dan pengakuan budaya angklung.</p><div class="quiz-meta"><span>◷ ± 3 menit</span><span>✦ Ada pembahasan</span><span>🏆 Skor akhir</span></div><button class="btn btn-primary" id="startQuiz">Mulai kuis <span>→</span></button></div>
+        </div>
+        <div class="quiz-play hidden" id="quizPlay">
+          <div class="quiz-topline"><span id="questionCounter">PERTANYAAN 1 DARI 8</span><span class="score-chip">✦ <b id="liveScore">0</b> poin</span></div>
+          <div class="progress-track"><div id="progressBar" class="progress-fill"></div></div>
+          <div class="question-area"><span class="question-tag" id="questionTag">KENALI ANGKLUNG</span><h3 id="questionText">Pertanyaan muncul di sini</h3><div class="answer-list" id="answerList"></div><div class="feedback-box hidden" id="feedbackBox" aria-live="polite"></div></div>
+          <div class="quiz-bottom"><span id="answeredCount">0 dijawab</span><button class="btn btn-primary" id="nextQuestion" disabled>Berikutnya <span>→</span></button></div>
+        </div>
+        <div class="quiz-result hidden" id="quizResult">
+          <div class="result-medal" id="resultMedal">🏆</div><span class="level-pill">PETUALANGAN SELESAI</span><h3 id="resultTitle">Hebat!</h3><p id="resultMessage">Kamu telah menyelesaikan kuis.</p><div class="result-score"><strong id="finalScore">0</strong><span>/ 80 poin</span></div><div class="result-progress"><div id="resultProgress"></div></div><p class="result-rank" id="resultRank"></p><div class="result-actions"><button class="btn btn-primary" id="retryQuiz">Main lagi ↻</button><a class="btn btn-quiet" href="#jelajahi">Pelajari lagi ↑</a></div>
+        </div>
+      </div>
+      <p class="quiz-footnote">Kuis ini untuk belajar budaya. Informasi sejarah dapat memiliki variasi dalam tradisi lisan setempat.</p>
+    </section>
+
+    <section class="closing section-wrap">
+      <div class="closing-leaf">✳</div><div><span class="eyebrow">JAGA WARISAN KITA</span><h2>Budaya hidup saat <span>kita memainkannya.</span></h2><p>Bagikan rasa ingin tahu, dengarkan cerita, dan terus kenali kekayaan budaya Indonesia.</p></div><a href="#beranda" class="btn btn-light">Kembali ke atas ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#beranda"><span class="brand-mark">♫</span><span>angklung<span class="brand-accent">adventure</span></span></a><p>Dibuat untuk belajar dan merayakan budaya Indonesia.</p><span>© <span id="year"></span> Angklung Adventure</span></footer>
+
+  <div class="modal-backdrop hidden" id="infoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-card"><button class="modal-close" id="closeModal" aria-label="Tutup">×</button><span class="modal-icon" id="modalIcon">🎋</span><span class="eyebrow">CATATAN PENJELAJAH</span><h2 id="modalTitle">Judul</h2><div id="modalBody" class="modal-body"></div><button class="btn btn-primary" id="modalDone">Mengerti <span>✓</span></button></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
